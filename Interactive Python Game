@@ -1,0 +1,97 @@
+import time
+
+time.sleep(1)
+print("\n")
+
+def intro(): 
+    print("Hello and welcome to WHAT ARE YOU GOING TO DO??!!")
+    time.sleep(2)
+    print("For this game you will need to enter text to enrich the story")
+    time.sleep(2)
+    print("Let the story begin!")
+    time.sleep(2)
+    print("\n")
+    print("CHAPTER 1!! ")
+
+def first_text():
+    global thingo
+    thingo = input("And your ")
+
+def second_text():
+    global first_place
+    first_place = input("Was strolling down to the ")
+
+def third_text():
+    global second_object
+    second_object = input(thingo + " encountered a ")
+
+def fourth_text():
+    global tool
+    tool = input("They found a ")
+
+def fifth_text():
+    global direction
+    direction = input("But " + thingo + " found a ")
+
+def first_chapter():
+    print("It was a warm sunny day ")
+    time.sleep(1)
+    first_text()
+    second_text()
+    time.sleep(1)
+    print(thingo + " was loving the hot summers day until....")
+    time.sleep(1)
+    third_text()
+    print(thingo +  " was frightened for its life!")
+    time.sleep(1)
+    print("What was " + thingo + " going to do??!!")
+    time.sleep(1)
+    
+def second_chapter():
+    print("\n")
+    print("CHAPTER 2!! ")
+    time.sleep(1)
+    print("Luckily for " + thingo + " ...")
+    time.sleep(1)
+    fourth_text()
+    time.sleep(1)
+    print(thingo + " used the " + tool + " and was sure to be saved")
+    time.sleep(1)
+    print("For now...")
+    time.sleep(1)
+    print("Anyway " + thingo + " continued on towards the " + first_place)
+    time.sleep(1)
+    print("But the path ended right in front of " + thingo)
+    time.sleep(1)
+    print("There was no way for " + thingo + " to continue towards " + first_place)
+    time.sleep(1)
+    print("What was " + thingo + " going to do??!!")
+    time.sleep(1)
+
+def third_chapter():
+    print("\n")
+    print("CHAPTER 3!! ")
+    time.sleep(1)
+    print(thingo + " was sure to be doomed, it could not continue to " + first_place)
+    time.sleep(1)
+    print("It was " + thingo + "'s dream")
+    time.sleep(1)
+    fifth_text()
+    print("So " + thingo + " used the " + direction)
+    time.sleep(1)
+    print("And once again was back on their path!!!")
+    time.sleep(1)
+    print("So " + thingo + " finally arrived at " + first_place + " and was filled to the brim with happiness")
+    time.sleep(1)
+    
+
+intro()
+first_chapter()
+second_chapter()
+third_chapter()
+
+print("\n")
+print("THE END!!")
+time.sleep(1)
+print("THANKS FOR PLAYING!!!")
+   
